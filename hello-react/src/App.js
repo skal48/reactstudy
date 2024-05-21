@@ -1,15 +1,8 @@
-import React from 'react';
 import './App.css';
+import Counter from './Counter';
 
-function App() {
-  const name = '리액트';
-  return (
-    <>
-      {/* 주석은 이렇게 작성합니다.*/}
-      <div className="react">{name}</div>
-      <input />
-    </>
-  );
-}
+const App = () => {
+  return <Counter />;
+};
 
 export default App;
